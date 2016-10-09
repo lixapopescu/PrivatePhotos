@@ -8,6 +8,7 @@ class AccountPage extends React.Component {
 
         const neck = [
             <link key="layout" rel="stylesheet" href="/public/layouts/default.min.css" />,
+            <link key="layout" rel="stylesheet" href="/public/layouts/react-datagrid.min.css" />,
             <link key="page" rel="stylesheet" href="/public/pages/account.min.css" />
         ];
         const feet = <script src="/public/pages/account.min.js"></script>;

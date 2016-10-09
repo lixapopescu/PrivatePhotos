@@ -20,6 +20,10 @@ Gulp.task('less', () => {
         dest: './public/layouts',
         outputName: 'default.min.css'
     }, {
+        entries: './client/layouts/react-datagrid.min.less',
+        dest: './public/layouts',
+        outputName: 'react-datagrid.min.css'
+    }, {
         entries: './client/pages/account/index.less',
         dest: './public/pages',
         outputName: 'account.min.css'

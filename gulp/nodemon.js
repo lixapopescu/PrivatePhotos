@@ -5,7 +5,7 @@ const Nodemon = require('gulp-nodemon');
 
 Gulp.task('nodemon', () => {
 
-    const nodeArgs = ['--inspect'];
+    const nodeArgs = [''];
 
     if (process.env.DEBUGGER) {
         nodeArgs.push('--debug');
